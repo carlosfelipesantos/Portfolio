@@ -26,6 +26,36 @@ body::before {
     z-index: -1;
 }
 
+/* ===== BOTÃO CURRÍCULO ===== */
+
+.foto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.btn-curriculo {
+    padding: 12px 115px;
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+    font-weight: 600;
+    border-radius: 8px;
+
+    /* Roxo transparente */
+    background: rgba(124, 58, 237, 0.596);
+
+    backdrop-filter: blur(6px);
+
+    transition: 0.3s ease;
+}
+
+.btn-curriculo:hover {
+    background: rgba(124, 58, 237, 0.712);
+    transform: translateY(-2px);
+}
+
+
 /* Aumenta a opacidade do conteúdo para melhor legibilidade */
 .container-principal,
 .skills-section,
@@ -849,3 +879,4 @@ h2 {
         font-size: 1.2rem;
     }
 }
+
