@@ -1,233 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Carlos Felipe</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mim - Carlos Felipe</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
-
 <body>
-    <header id="main-header">
-        <h1 class="logo">carlosFelipe();</h1>
-        <nav id="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html" class="active">Sobre mim</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-        <div class="social-icons">
-            <a href="https://github.com/carlosfelipesantos" target="_blank" aria-label="GitHub">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://linkedin.com/in/carlosfelipes" target="_blank" aria-label="LinkedIn">
-                <i class="fab fa-linkedin"></i>
-            </a>
+  <header id="main-header">
+    <h1 class="logo">carlosFelipe();</h1>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html" class="active">Sobre mim</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="social-icons">
+      <a href="https://github.com/carlosfelipesantos" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/carlosfelipes" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </header>
+
+  <main class="container-sobre">
+    <div class="texto-sobre">
+      <h2>Sobre mim</h2>
+      <p>Olá! Meu nome é Carlos Felipe, tenho 21 anos e sou de Jales, SP.</p>
+      <p>Atualmente, estou no 5º semestre de Análise e Desenvolvimento de Sistemas na FATEC Jales, e também possuo formação técnica na área pela ETEC Jales.</p>
+      <p>Minha experiência inclui atuação como Jovem Aprendiz na SABESP, onde desenvolvi habilidades administrativas e de atendimento ao público.</p>
+    </div>
+    <div class="foto-container">
+      <img src="img/Captura de tela 2026-03-26 164210.png" alt="Foto de Carlos Felipe" class="foto-sobre">
+      <a href="curriculo/Curriculo Carlos Felipe.pdf" download class="btn-curriculo">
+        <i class="fas fa-download"></i> Currículo
+      </a>
+    </div>
+  </main>
+
+  <section class="cursos-section">
+    <h2 class="cursos-titulo">Cursos Realizados</h2>
+    <div class="container-cursos">
+      <!-- ASP.NET -->
+      <a href="https://learn.microsoft.com/api/achievements/share/pt-br/CarlosFelipe-9966/2JUJ89MV?sharingId=962485E5BBEF1FEF" target="_blank" style="text-decoration: none;">
+        <div class="curso-card">
+          <div class="curso-img"><img src="img/criacaoasp.png" alt="Curso ASP.NET"><div class="curso-badge">2 horas</div></div>
+          <div class="curso-info"><h3>Crie seu primeiro aplicativo Web ASP.NET Core</h3><p class="curso-plataforma">Microsoft Learn</p><p class="curso-descricao">Utilização de modelos de projeto padrão, estrutura básica de projeto...</p><div class="curso-status">Concluído em 2026</div></div>
         </div>
-    </header>
-
-    <main class="container-sobre">
-        <div class="texto-sobre">
-            <h2>Sobre mim</h2>
-            <p>Olá! Meu nome é Carlos Felipe, tenho 21 anos e sou de Jales, SP.</p>
-            <p>Atualmente, estou no 5º semestre de Análise e Desenvolvimento de Sistemas na FATEC Jales, e também possuo
-                formação técnica na área pela ETEC Jales.</p>
-            <p>Minha experiência inclui atuação como Jovem Aprendiz na SABESP, onde desenvolvi habilidades
-                administrativas e de atendimento ao público.</p>
-            <p>Venho me aperfeiçoando realizando diversos cursos de TI e busco uma oportunidade de estágio em TI para
-                aplicar meus conhecimentos e crescer profissionalmente.</p>
+      </a>
+      <!-- ASP.NET Core -->
+      <a href="https://learn.microsoft.com/api/achievements/share/pt-br/CarlosFelipe-9966/XESB5AFY?sharingId=962485E5BBEF1FEF" target="_blank" style="text-decoration: none;">
+        <div class="curso-card">
+          <div class="curso-img"><img src="img/ASPNET.png" alt="Curso ASP.NET Core"><div class="curso-badge">2 horas</div></div>
+          <div class="curso-info"><h3>Introdução ao desenvolvimento da Web do .NET com o ASP.NET Core</h3><p class="curso-plataforma">Microsoft Learn</p><p class="curso-descricao">Plataforma moderna para desenvolvimento Web no ecossistema .NET...</p><div class="curso-status">Concluído em 2026</div></div>
         </div>
-    
-        <div class="foto-container">
-    <img src="img/EU.png" alt="Foto de Carlos Felipe" class="foto-sobre">
-
-    <a href="curriculo/Curriculo Carlos Felipe.pdf"
-       download
-       class="btn-curriculo">
-         Currículo
-    </a>
-</div>
-    </main>
-
-    <!-- Seção de cursos realizados (do mais recente para o mais antigo) -->
-    <section class="cursos-section">
-        <h2 class="cursos-titulo">Cursos Realizados</h2>
-        <div class="container-cursos">
-
-
-             <!-- ASP.NET - 2026 -->
-            <a href="https://learn.microsoft.com/api/achievements/share/pt-br/CarlosFelipe-9966/2JUJ89MV?sharingId=962485E5BBEF1FEF" target="_blank">
-                <div class="curso-card">
-                    <div class="curso-img">
-                        <img src="img/criacaoasp.png" alt="Curso ASP.NET">
-                        <div class="curso-badge">2 horas</div>
-                    </div>
-                    <div class="curso-info">
-                        <h3>Crie seu primeiro aplicativo Web ASP.NET Core</h3>
-                        <p class="curso-plataforma">Microsoft Learn</p>
-                        <p class="curso-descricao">
-                            Utilização de modelos de projeto padrão, estrutura básica de projeto, execução da aplicação localmente no navegador e realização de alterações no código durante o desenvolvimento.
-                        </p>
-                        <div class="curso-status">Concluído em 2026</div>
-                    </div>
-                </div>
-            </a>
-
-
-
-
-            <!-- ASP.NET Core - 2026 -->
-            <a href="https://learn.microsoft.com/api/achievements/share/pt-br/CarlosFelipe-9966/XESB5AFY?sharingId=962485E5BBEF1FEF" target="_blank">
-                <div class="curso-card">
-                    <div class="curso-img">
-                        <img src="img/ASPNET.png" alt="Curso ASP.NET Core">
-                        <div class="curso-badge">2 horas</div>
-                    </div>
-                    <div class="curso-info">
-                        <h3>Introdução ao desenvolvimento da Web do .NET com o ASP.NET Core</h3>
-                        <p class="curso-plataforma">Microsoft Learn</p>
-                        <p class="curso-descricao">
-                            Plataforma moderna para desenvolvimento Web no ecossistema .NET usando HTML, CSS e C#,
-                            com arquitetura modular para criação de aplicações sob medida.
-                        </p>
-                        <div class="curso-status">Concluído em 2026</div>
-                    </div>
-                </div>
-            </a>
-
-            <!-- SQL Server - 2026 -->
-            <a href="https://www.udemy.com/certificate/UC-d05ed6ea-8df3-4842-ae5b-a1939b9e738d/" target="_blank">
-                <div class="curso-card">
-                    <div class="curso-img">
-                        <img src="img/SQLSERVER.png" alt="Curso SQL Server">
-                        <div class="curso-badge">12 horas</div>
-                    </div>
-                    <div class="curso-info">
-                        <h3>SQL Server para Desenvolvedores – Básico ao Avançado</h3>
-                        <p class="curso-plataforma">Udemy</p>
-                        <p class="curso-descricao">
-                            Modelagem de banco de dados, T-SQL, JOINs, índices, views, procedures, triggers e controle
-                            de transações.
-                        </p>
-                        <div class="curso-status">Concluído em 2026</div>
-                    </div>
-                </div>
-            </a>
-
-            <!-- EF Core 8 - 2026 -->
-            <div class="curso-card">
-                <div class="curso-img">
-                    <img src="img/ef8.png" alt="Curso EF Core 8">
-                    <div class="curso-badge">15 horas</div>
-                </div>
-                <div class="curso-info">
-                    <h3>Entity Framework Core 8 (EF Core 8) + Minimal API</h3>
-                    <p class="curso-plataforma">Udemy</p>
-                    <p class="curso-descricao">
-                        Uso do EF Core como ORM, migrações, relacionamentos, otimização de consultas e integração com
-                        APIs em ASP.NET Core.
-                    </p>
-                    <div class="curso-status">Concluído em 2026</div>
-                </div>
-            </div>
-
-            <!-- C# e .NET - 2025 -->
-            <a href="https://www.udemy.com/certificate/UC-0b38a643-4179-4d31-8a15-5b3e2a81b240/" target="_blank">
-                <div class="curso-card">
-                    <div class="curso-img">
-                        <img src="img/csharpnelio.png" alt="Curso C# e .NET">
-                        <div class="curso-badge">38 horas</div>
-                    </div>
-                    <div class="curso-info">
-                        <h3>C# e .NET</h3>
-                        <p class="curso-plataforma">Udemy</p>
-                        <p class="curso-descricao">
-                            Programação orientada a objetos, LINQ, Lambda, delegates, composição, herança e princípios
-                            SOLID.
-                        </p>
-                        <div class="curso-status">Concluído em 2025</div>
-                    </div>
-                </div>
-            </a>
-
-            <!-- C# para iniciantes - 2025 -->
-            <a href="https://www.udemy.com/certificate/UC-8b12d707-5425-401f-8942-a2c45e5445ee/" target="_blank">
-                <div class="curso-card">
-                    <div class="curso-img">
-                        <img src="img/csharp-victorlima.png" alt="Curso C# para iniciantes">
-                        <div class="curso-badge">15 horas</div>
-                    </div>
-                    <div class="curso-info">
-                        <h3>C# para iniciantes</h3>
-                        <p class="curso-plataforma">Udemy</p>
-                        <p class="curso-descricao">
-                            Fundamentos da linguagem, POO e desenvolvimento de projetos práticos.
-                        </p>
-                        <div class="curso-status">Concluído em 2025</div>
-                    </div>
-                </div>
-            </a>
-
-            <!-- JavaScript - 2024 -->
-            <a href="https://www.udemy.com/certificate/UC-90774491-e557-40f6-a3b5-cab77760ceaf/" target="_blank">
-                <div class="curso-card">
-                    <div class="curso-img">
-                        <img src="img/js.png" alt="Curso JavaScript">
-                        <div class="curso-badge">25 horas</div>
-                    </div>
-                    <div class="curso-info">
-                        <h3>JavaScript Moderno</h3>
-                        <p class="curso-plataforma">Udemy</p>
-                        <p class="curso-descricao">
-                            JavaScript do básico ao avançado, com Node.js e projetos práticos.
-                        </p>
-                        <div class="curso-status">Concluído em 2024</div>
-                    </div>
-                </div>
-            </a>
-
-            <!-- HTML e CSS - 2024 -->
-            <div class="curso-card">
-                <div class="curso-img">
-                    <img src="img/bradesco.png" alt="Curso HTML e CSS">
-                    <div class="curso-badge">2 horas</div>
-                </div>
-                <div class="curso-info">
-                    <h3>HTML5 e CSS3</h3>
-                    <p class="curso-plataforma">Fundação Bradesco</p>
-                    <p class="curso-descricao">
-                        Desenvolvimento de páginas web utilizando HTML5 e CSS3.
-                    </p>
-                    <div class="curso-status">Concluído em 2024</div>
-                </div>
-            </div>
-
-            <!-- Algoritmos - 2022 -->
-            <div class="curso-card">
-                <div class="curso-img">
-                    <img src="img/guana.png" alt="Curso de Algoritmos">
-                    <div class="curso-badge">40 horas</div>
-                </div>
-                <div class="curso-info">
-                    <h3>Lógica de Programação e Algoritmos</h3>
-                    <p class="curso-plataforma">Curso em Vídeo</p>
-                    <p class="curso-descricao">
-                        Fundamentos de lógica de programação, estruturas condicionais, laços e algoritmos.
-                    </p>
-                    <div class="curso-status">Concluído em 2022</div>
-                </div>
-            </div>
-
+      </a>
+      <!-- SQL Server -->
+      <a href="https://www.udemy.com/certificate/UC-d05ed6ea-8df3-4842-ae5b-a1939b9e738d/" target="_blank" style="text-decoration: none;">
+        <div class="curso-card">
+          <div class="curso-img"><img src="img/SQLSERVER.png" alt="Curso SQL Server"><div class="curso-badge">12 horas</div></div>
+          <div class="curso-info"><h3>SQL Server para Desenvolvedores – Básico ao Avançado</h3><p class="curso-plataforma">Udemy</p><p class="curso-descricao">Modelagem de banco de dados, T-SQL, JOINs, índices...</p><div class="curso-status">Concluído em 2026</div></div>
         </div>
-    </section>
+      </a>
+      <!-- EF Core 8 -->
+      <div class="curso-card">
+        <div class="curso-img"><img src="img/ef8.png" alt="Curso EF Core 8"><div class="curso-badge">15 horas</div></div>
+        <div class="curso-info"><h3>Entity Framework Core 8 (EF Core 8) + Minimal API</h3><p class="curso-plataforma">Udemy</p><p class="curso-descricao">Uso do EF Core como ORM, migrações, relacionamentos...</p><div class="curso-status">Concluído em 2026</div></div>
+      </div>
+      <!-- C# e .NET -->
+      <a href="https://www.udemy.com/certificate/UC-0b38a643-4179-4d31-8a15-5b3e2a81b240/" target="_blank" style="text-decoration: none;">
+        <div class="curso-card">
+          <div class="curso-img"><img src="img/csharpnelio.png" alt="Curso C# e .NET"><div class="curso-badge">38 horas</div></div>
+          <div class="curso-info"><h3>C# e .NET</h3><p class="curso-plataforma">Udemy</p><p class="curso-descricao">Programação orientada a objetos, LINQ, Lambda, delegates...</p><div class="curso-status">Concluído em 2025</div></div>
+        </div>
+      </a>
+      <!-- C# para iniciantes -->
+      <a href="https://www.udemy.com/certificate/UC-8b12d707-5425-401f-8942-a2c45e5445ee/" target="_blank" style="text-decoration: none;">
+        <div class="curso-card">
+          <div class="curso-img"><img src="img/csharp-victorlima.png" alt="Curso C# para iniciantes"><div class="curso-badge">15 horas</div></div>
+          <div class="curso-info"><h3>C# para iniciantes</h3><p class="curso-plataforma">Udemy</p><p class="curso-descricao">Fundamentos da linguagem, POO e desenvolvimento de projetos práticos.</p><div class="curso-status">Concluído em 2025</div></div>
+        </div>
+      </a>
+      <!-- JavaScript -->
+      <a href="https://www.udemy.com/certificate/UC-90774491-e557-40f6-a3b5-cab77760ceaf/" target="_blank" style="text-decoration: none;">
+        <div class="curso-card">
+          <div class="curso-img"><img src="img/js.png" alt="Curso JavaScript"><div class="curso-badge">25 horas</div></div>
+          <div class="curso-info"><h3>JavaScript Moderno</h3><p class="curso-plataforma">Udemy</p><p class="curso-descricao">JavaScript do básico ao avançado, com Node.js e projetos práticos.</p><div class="curso-status">Concluído em 2024</div></div>
+        </div>
+      </a>
+      <!-- HTML e CSS -->
+      <div class="curso-card">
+        <div class="curso-img"><img src="img/bradesco.png" alt="Curso HTML e CSS"><div class="curso-badge">2 horas</div></div>
+        <div class="curso-info"><h3>HTML5 e CSS3</h3><p class="curso-plataforma">Fundação Bradesco</p><p class="curso-descricao">Desenvolvimento de páginas web utilizando HTML5 e CSS3.</p><div class="curso-status">Concluído em 2024</div></div>
+      </div>
+      <!-- Algoritmos -->
+      <div class="curso-card">
+        <div class="curso-img"><img src="img/guana.png" alt="Curso de Algoritmos"><div class="curso-badge">40 horas</div></div>
+        <div class="curso-info"><h3>Lógica de Programação e Algoritmos</h3><p class="curso-plataforma">Curso em Vídeo</p><p class="curso-descricao">Fundamentos de lógica de programação, estruturas condicionais, laços e algoritmos.</p><div class="curso-status">Concluído em 2022</div></div>
+      </div>
+    </div>
+  </section>
 
-    
+  <footer>
+    <p>© 2025 Carlos Felipe | <a href="https://github.com/carlosfelipesantos" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/carlosfelipes" target="_blank">LinkedIn</a></p>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
-
 </html>

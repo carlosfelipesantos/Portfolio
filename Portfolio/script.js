@@ -2,7 +2,7 @@ const titleText = "Carlos Felipe";
 const textSequence = [
   "Estudante de ADS na Fatec",
   "Técnico em ADS",
-  "Co-Fundador do Hermes®"
+  "Co-Fundador do Hermes Fretes®"
 ];
 
 const titleEl = document.getElementById("typing-title");
